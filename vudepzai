@@ -1,0 +1,345 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Clicktp = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local by = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local speed = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local infjump = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local vudepzaihub = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local noclip = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+
+--Properties:
+
+Frame.Parent = game.StarterGui.Gui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.533152759, 0, 0.0760764033, 0)
+Frame.Size = UDim2.new(0, 287, 0, 295)
+
+UICorner.Parent = Frame
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(0.13, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 238, 0))}
+UIGradient.Parent = Frame
+
+Clicktp.Name = "Clicktp"
+Clicktp.Parent = Frame
+Clicktp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Clicktp.Position = UDim2.new(0.559015691, 0, 0.231595784, 0)
+Clicktp.Size = UDim2.new(0, 109, 0, 35)
+Clicktp.Font = Enum.Font.FredokaOne
+Clicktp.Text = "Click Tp"
+Clicktp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Clicktp.TextScaled = true
+Clicktp.TextSize = 14.000
+Clicktp.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_2.Parent = Clicktp
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 200, 0))}
+UIGradient_2.Parent = Clicktp
+
+by.Name = "by"
+by.Parent = Frame
+by.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+by.Size = UDim2.new(0, 287, 0, 41)
+by.Font = Enum.Font.PermanentMarker
+by.Text = "By Vudepzai"
+by.TextColor3 = Color3.fromRGB(0, 0, 0)
+by.TextSize = 30.000
+
+UICorner_3.Parent = by
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 200, 0))}
+UIGradient_3.Parent = by
+
+speed.Name = "% speed"
+speed.Parent = Frame
+speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+speed.BackgroundTransparency = 1.000
+speed.Position = UDim2.new(0.0428384691, 0, 0.239526689, 0)
+speed.Size = UDim2.new(0, 102, 0, 29)
+speed.Font = Enum.Font.FredokaOne
+speed.Text = "Speed"
+speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+speed.TextScaled = true
+speed.TextSize = 14.000
+speed.TextWrapped = true
+
+TextButton.Name = "-"
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 234, 0)
+TextButton.Position = UDim2.new(0, 0, 0.376286447, 0)
+TextButton.Size = UDim2.new(0, 48, 0, 44)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "-"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_4.Parent = TextButton
+
+TextButton_2.Name = "+"
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 234, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.Position = UDim2.new(0.301175922, 0, 0.376286447, 0)
+TextButton_2.Size = UDim2.new(0, 48, 0, 44)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "+"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 1.000
+TextButton_2.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_5.Parent = TextButton_2
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.141706064, 0, 0.366469204, 0)
+TextLabel.Size = UDim2.new(0, 54, 0, 49)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "16"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+infjump.Name = "infjump"
+infjump.Parent = Frame
+infjump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infjump.Position = UDim2.new(0.559015632, 0, 0.389702588, 0)
+infjump.Size = UDim2.new(0, 109, 0, 35)
+infjump.Font = Enum.Font.FredokaOne
+infjump.Text = "Inf Jump"
+infjump.TextColor3 = Color3.fromRGB(0, 0, 0)
+infjump.TextScaled = true
+infjump.TextSize = 14.000
+infjump.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_6.Parent = infjump
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 200, 0))}
+UIGradient_4.Parent = infjump
+
+vudepzaihub.Name = "vudepzaihub"
+vudepzaihub.Parent = Frame
+vudepzaihub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+vudepzaihub.Position = UDim2.new(0, 0, 0.830508471, 0)
+vudepzaihub.Size = UDim2.new(0, 287, 0, 50)
+vudepzaihub.Font = Enum.Font.PermanentMarker
+vudepzaihub.Text = "Vudepzai Hub"
+vudepzaihub.TextColor3 = Color3.fromRGB(0, 0, 0)
+vudepzaihub.TextSize = 30.000
+
+UICorner_7.Parent = vudepzaihub
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 255)), ColorSequenceKeypoint.new(0.01, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 200, 0))}
+UIGradient_5.Parent = vudepzaihub
+
+noclip.Name = "no clip"
+noclip.Parent = Frame
+noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+noclip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+noclip.Position = UDim2.new(0.558336854, 0, 0.557667553, 0)
+noclip.Size = UDim2.new(0.38046971, 0, 0.115018904, 0)
+noclip.Font = Enum.Font.SourceSans
+noclip.Text = "Noclip: off"
+noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+noclip.TextScaled = true
+noclip.TextSize = 14.000
+noclip.TextStrokeTransparency = 0.000
+noclip.TextWrapped = true
+
+UICorner_8.Parent = noclip
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(170, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 200, 0))}
+UIGradient_6.Parent = noclip
+
+-- Scripts:
+
+local function TADVA_fake_script() -- Clicktp.LocalScript 
+	local script = Instance.new('LocalScript', Clicktp)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		mouse = game.Players.LocalPlayer:GetMouse()
+		tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Name = "Click Teleport"
+		tool.Activated:connect(function()
+			local pos = mouse.Hit+Vector3.new(0,2.5,0)
+			pos = CFrame.new(pos.X,pos.Y,pos.Z)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+		end)
+		tool.Parent = game.Players.LocalPlayer.Backpack
+	end)
+end
+coroutine.wrap(TADVA_fake_script)()
+local function LMVVZK_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local label = script.Parent.Parent.TextLabel
+	
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed -5
+		label.Text = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed
+	end)
+end
+coroutine.wrap(LMVVZK_fake_script)()
+local function KVNB_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local label = script.Parent.Parent.TextLabel
+	
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed +5
+		label.Text = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed
+	end)
+end
+coroutine.wrap(KVNB_fake_script)()
+local function PFSI_fake_script() -- infjump.LocalScript 
+	local script = Instance.new('LocalScript', infjump)
+
+	local UIS = game:GetService("UserInputService")
+	local player = game.Players.LocalPlayer
+	local character
+	local humanoid
+	
+	local canDoubleJump = false
+	local hasDoubleJumped = false
+	local oldPower
+	local time_delay = 0.2
+	local jump_multiplier = 1 -- set to 1 for a normal double jump, increase for the second jump to be higher
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		function onJumpRequest()
+			if not character or not humanoid or not character:IsDescendantOf(workspace) or humanoid:GetState() == Enum.HumanoidStateType.Dead then
+				return
+			end
+	
+			if canDoubleJump and not hasDoubleJumped then
+				hasDoubleJumped = false
+				humanoid.JumpPower = oldPower * jump_multiplier
+				humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+			end
+		end
+	
+		local function characterAdded(new)
+			character = new
+			humanoid = new:WaitForChild("Humanoid")
+			hasDoubleJumped = false
+			canDoubleJump = false
+			oldPower = humanoid.JumpPower
+	
+			humanoid.StateChanged:connect(function(old, new)
+				if new == Enum.HumanoidStateType.Landed then
+					canDoubleJump = false
+					hasDoubleJumped = false
+					humanoid.JumpPower = oldPower
+				elseif new == Enum.HumanoidStateType.Freefall then
+					wait(time_delay)
+					canDoubleJump = true
+				end
+			end)
+		end
+	
+		if player.Character then
+			characterAdded(player.Character) 
+		end
+	
+		player.CharacterAdded:connect(characterAdded)
+		UIS.JumpRequest:connect(onJumpRequest)
+	end)
+end
+coroutine.wrap(PFSI_fake_script)()
+local function TCVMAP_fake_script() -- noclip.LocalScript 
+	local script = Instance.new('LocalScript', noclip)
+
+	local keys = {
+		LeftShift = false,
+	}
+	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+		if key == "0" then
+			keys.LeftShift = true
+		end
+	end)
+	game.Players.LocalPlayer:GetMouse().KeyUp:Connect(function(key)
+		if key == "0" then
+			keys.LeftShift = false
+		end
+	end)
+	local hack = false
+	script.Parent.MouseButton1Click:Connect(function()
+		hack = not hack
+		if hack then
+			script.Parent.Text = "Noclip: on"
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,0)
+			local humanoid = nil
+			while hack do
+				local fps = game["Run Service"].RenderStepped:Wait()
+				if not humanoid or not humanoid.Parent or not humanoid.Parent.Parent then
+					if game.Players.LocalPlayer.Character then
+						if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+							humanoid = game.Players.LocalPlayer.Character.Humanoid
+							if humanoid.RootPart then
+								humanoid.RootPart.Anchored = true
+							end
+						end
+					end
+				else
+					if humanoid.RootPart then
+						humanoid.RootPart.Anchored = true
+						local vel = humanoid.MoveDirection*humanoid.WalkSpeed
+						if humanoid.Jump then
+							vel = vel+Vector3.new(0,humanoid.WalkSpeed,0)
+						end
+						if keys.LeftShift then
+							vel = vel+Vector3.new(0,-humanoid.WalkSpeed,0)
+						end
+						humanoid.RootPart.Velocity = ((humanoid.RootPart.Velocity-vel)*(0.75^(30/(1/fps))))+vel
+						humanoid.RootPart.CFrame = (humanoid.RootPart.CFrame+(humanoid.RootPart.Velocity*fps))*CFrame.Angles(humanoid.RootPart.RotVelocity.X*fps,humanoid.RootPart.RotVelocity.Y*fps,humanoid.RootPart.RotVelocity.Z*fps)
+					end
+				end
+			end
+		else
+			script.Parent.Text = "Noclip: off"
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,0)
+			game["Run Service"].RenderStepped:Wait()
+			game["Run Service"].RenderStepped:Wait()
+			if game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") and game.Players.LocalPlayer.Character.Humanoid.RootPart then
+				game.Players.LocalPlayer.Character.Humanoid.RootPart.Anchored = false
+			end
+		end
+	end)
+end
+coroutine.wrap(TCVMAP_fake_script)()
